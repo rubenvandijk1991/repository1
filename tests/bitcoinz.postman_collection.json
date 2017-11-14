@@ -22,6 +22,7 @@
 							"",
 							"// pull key values from the response",
 							"var usdRate = response.bpi.USD.rate;",
+							"var eurRate = response.bpi.EUR.rate;",
 							"var bitcoinTime = response.time.updatedISO;",
 							"",
 							"// ensure the rate in the response is a float, and not divisible evenly by 1",
